@@ -1,0 +1,17 @@
+Specs:
+- Batteridrevet (coin-cell)
+- Liten
+- SMD
+- Piezo-buzzer -> CMT-5023S-SMT med NPN-transistor
+- Vare lenge
+- Programmerbar i Rust
+
+ATTiny13V-10SU fordi den har rust board-fil
+Referansedesign fra ?
+Watchdog timer som våkenr opp hvert 8. sekund og øker en tellerverdi
+RNG-kilde -> RNG fra ADC
+
+Pull-up for RESET: https://onlinedocs.microchip.com/pr/GUID-F626284A-58F0-4C25-A6F3-0EA5054F3E2B-en-US-6/index.html?GUID-B80B25FF-E9D7-4766-B562-DA197B8B938C
+
+Line resistance for SPI-linjer: https://onlinedocs.microchip.com/pr/GUID-F626284A-58F0-4C25-A6F3-0EA5054F3E2B-en-US-6/GUID-487B3F5E-C5E0-4DB1-9E75-CBE2E524AD06.html
+
