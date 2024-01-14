@@ -1,4 +1,4 @@
-21454001942401324
+21455710578828605
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89585,6 +89585,13 @@ MagneticBuzzer_CUI_CMT-5023S-SMT
 0
 3
 3
+als_footprints
+PinHeader_1x06_P1.00mm_Vertical_SMD_Aligned
+surface-mounted straight pin header, 1x06, 1.00mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x06 1.00mm single row style1 pin1 left
+0
+6
+6
 als_footprints
 SOIC-8W_5.3x5.3mm_P1.27mm
 8-Lead Plastic Small Outline (SM) - 5.28 mm Body [SOIC] (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)

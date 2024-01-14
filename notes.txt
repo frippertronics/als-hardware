@@ -15,3 +15,11 @@ Pull-up for RESET: https://onlinedocs.microchip.com/pr/GUID-F626284A-58F0-4C25-A
 
 Line resistance for SPI-linjer: https://onlinedocs.microchip.com/pr/GUID-F626284A-58F0-4C25-A6F3-0EA5054F3E2B-en-US-6/GUID-487B3F5E-C5E0-4DB1-9E75-CBE2E524AD06.html
 
+Forbedringer:
+- Drop pullup på nRESET -> finnes internt
+- Current-limiting motstand på buzzer-output -> ubegrenset strømtrikk, ikke bra
+- Pull-down på buzzer-enable, output_low er 0.7 V
+- Lengre pads på buzzer-footprint -> vanskelig å lodde
+- Erstatte pin-header footpring med bare 6 pads, litt enklere å lage jig
+- Drop den ene motstanden på buzzer-enable, trenger bare én.
+- Pull-down på ubrukte pinner
